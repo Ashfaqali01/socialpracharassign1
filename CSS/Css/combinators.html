@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendant selector */
+        /* div h3{
+            color:red;
+            border: 2px solid yellow;
+
+        } */
+         /* child selector */
+      /*  div>h3{
+            color:red;
+            border: 2px solid yellow;
+
+        }*/
+
+        /* adjacent sibiling */
+        div~h2{
+            color:red
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- combination :it tells the realationship b/w simple selectors (two elements/tags) -->
+    <!-- there are four types of combinators 
+    1.descendant selector =(space) 
+    2.chid selectors (>)
+    3. adjacent sibiling selector (+)
+    4.general sibiling selector(~)-->
+
+    <!--  1.descendant selector =>(space)  -->
+    <!--   2.chid selectors (>) :are direct childrens -->
+   <!-- descendant :not a direct child -->
+    <!-- div tag is parent element -->
+    <div>
+        <h3>childtag</h3>
+        <h3>childtag</h3>
+        <section>
+            <!-- child tag of section but descendant of div -->
+            <h3>childtag</h3>
+        </section>
+        <h3>childtag</h3>
+
+    </div>
+
+    <!-- 3. adjacent sibiling selector (+) -->
+
+    <h2>child of body and sibiling of div</h2>
+    <div>
+        <h2>childtag of div</h2>
+        <h2>childtag of div</h2>
+    </div>
+    <!-- immediately followed sibiling -->
+    <h2>sibiling of div</h2>
+
+    <section>sibiling of div</section>
+    <!-- not-immediately followed sibiling --> 
+    <h2>sibiling of div but not immediately followed</h2>
+
+    <!-- pseudo class and pseudo elements 
+    attribute selectors -->
+
+</body>
+</html>

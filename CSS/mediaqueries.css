@@ -1,0 +1,25 @@
+/*syntax:@media screen/print/all */
+/*minimum -start break point*/
+/*maximum -end break point*/
+/*breakpoints: small(sm)-<=576px medium(md)->=768px
+large(lg)->=992px xtralarge(lg)->1200px xtralarge->=1400px*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aqua;
+
+}
+/*mediaQueries */
+@media screen and (max-width:576px){
+    body{
+        background-color: pink;
+        font-size: 100px;
+        text-align: center;
+        font-weight: ;
+    }
+}

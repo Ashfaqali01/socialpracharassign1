@@ -1,0 +1,49 @@
+*{
+  
+    background-color:rgba(52, 73, 94,1.0) ;
+}
+/* pseudo selector */
+:root{
+    --primary-color:rgb(255, 47, 0);
+    --secondary-color:rgb(128, 36, 0);
+}  
+
+#default{
+    /* color:black; */
+    color:var(--secondary-color)
+
+}
+/* rgbcolors & rgba */
+/* color: rgb(red, green, blue); */
+/*the value for each color ranges from 0-255 */
+
+h2{
+    /* color:rgb(0,0,0)-black */
+    /* color:rgb(255,255,255)-white */
+    /* color:rgb(255,0,0)-red */
+    /* color:rgb(0,255,0) */
+    /* color:rgb(30,30,30) */
+    /* color: rgb(255, 0,0,0.9); */
+    color:var(--secondary-color)
+}
+
+
+/* hexa decimal colors -#00-ff (00-0 ff-255) */
+/* rgb-rrggbb */
+
+p{
+    /* color:#000000-black */
+    /* color:#ffffff-white */
+    /* color:#fff */
+    /* color:#3c3c3c; */
+    /* color:#2ff */
+    /* color:rgba(52, 152, 219,1.0)/ */
+    color:var(--primary-color)
+
+}
+/* hsl-hue(0-360deg) saturation(0-100%) lightness(0-100%)  */
+h3{
+    /* color: hsl(120, 79%, 49%); */
+    color:var(--primary-color)
+    /* color: hsla(26, 224, 26, 0.961); */
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*flexbox-parent properties */
+/*1.flex-direction 2.flex-wrap 3.flex-flow
+4.justify-content 5.allign-item(singlerow/item) 6.align-content(multiple rows) */
+/*display:every html by default */
+/*parent property */
+.container{
+    border: 2px solid red;
+    width: 80vw;
+    height: 50vh;
+    display: flex;/*default row direction */
+    flex-direction: row-reverse;
+}

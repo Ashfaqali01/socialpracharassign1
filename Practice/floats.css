@@ -1,0 +1,21 @@
+img{
+    float:left;
+    margin: right 10px;
+}
+.parent{
+    border: 2px solid red ;
+    width: 80vw;
+    height: 300px;
+}
+.child{
+    width: 200px;
+    height: 100px;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+img{
+    float: left;
+
+}

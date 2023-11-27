@@ -1,0 +1,43 @@
+h1{
+    color:red;
+    /* text-align-properties */
+    text-align: center;
+    /* text-align: end;
+    text-align:right;
+    text-align:left;
+    text-align: justify; */
+    /* text-transform properties */
+    text-transform:uppercase ;/* it makes the all letter capital*/
+    text-transform:lowercase ;/* it makes the all letter small */
+    text-transform:capitalize ; /* it makes the first letter capital */
+    /* text-decoration properties */
+    text-decoration-style:dotted;
+    text-decoration-line: line-through ;
+    text-decoration-line: overline ;
+    text-decoration-line: underline ;
+    text-decoration-line: underline overline;
+    text-decoration-color: aqua;
+    text-decoration-thickness:10px ;
+    text-decoration:underline  aqua ;
+    border: 2px solid red;
+    /*boxshadow properties  */
+    box-shadow:5px 5px 5px 0px red;
+}
+
+div{
+    width:100px;
+    height: 100px;
+    background-color: aqua;
+    border:1px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.012);
+}
+
+p{
+    /* text-spacing properties */
+    text-indent:10px ;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    word-spacing:10px;
+    text-shadow: 2px 5px 0px  red;
+
+}

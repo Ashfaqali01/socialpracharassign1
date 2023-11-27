@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 2px;
+            padding: 0;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           background-color: aqua;
+
+        }
+        /* id selector*/
+        #id1{
+             color:red;
+             background-color: black; 
+             font-size: medium;
+             text-align: center;
+            }
+       
+        /* class selector */
+        .c1{
+            color:wheat;
+            background-color: black;
+            border: 2px solid red;
+        }
+        
+        .c2{
+            text-align: center;
+        }
+        .c3{
+            padding: 5px;
+        }
+        /* group selectors */
+        h1,h2,div{
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- simple selectors :id class tag/elements group universal -->
+    <!-- syntax for id selector : #idvalue -->
+    <!-- syntax for class selector : .classvalue -->
+    <!-- syntax for tag selector : tagname -->
+    <!-- syntax for group selector : h1,h2,h3,p,div ,#id1,#id2 ,.c1,.c2-->
+    <!-- syntax for universal selector : * -->
+    <!-- id selector : is used for selecting the unique elements 
+    ex:it has only one value at a time id='id1' wrongway: id='id1 id2'-->
+    <p id="id1" >Lorem ipsum, </p>
+    <!-- class selector :is used to style the group of elemnets(which is not unique) -->
+    <!-- example : it has multiple values at atime class='c1 c2 c3' -->
+    <p class="c1">Lorem ipsum, </p>
+    <p class="c1 c2 c3">mulitple classselector </p>
+    <!-- group selector  :it used for selecting the group of elements -->
+    <!-- group selector : h1,h2,div {} -->
+    <h1>group selectors</h1>
+    <h2>group selectors</h2>
+    <div><p>group selectors</p></div>
+    <p>Lorem ipsum, </p>
+    <!-- universal selector :is used for aplying similar styles throughout the website :
+     fontfamily ,removing the default margin & padding ,boxsizing_properties -->
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*t caluclate the totl width
+width+marginleft+marginright+borderright+paddingright+paddingleft */
+/*h1{
+    border: 2px solid red;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+}*/
+input{
+    /*border: none;
+    outline: 2px solid red;*/
+    border: 2px solid red;
+    outline-style: solid;
+    outline-color: violet;
+    outline-width: 3px;
+    outline-offset: 10px;/*to provide gap bw the outline and border*/
+    outline: 2px dotted gray;
+}

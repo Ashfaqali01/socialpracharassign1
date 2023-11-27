@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    
+}
+.container{
+    border: 2px solid red;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: start;
+    align-content: center;
+
+
+}
+.child{
+    border: 2px solid yellow;
+    border-color: aqua;
+    margin: 0.25rem;
+    text-align: center;
+    height: 50px;
+
+}

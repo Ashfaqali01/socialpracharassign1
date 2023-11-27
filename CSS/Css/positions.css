@@ -1,0 +1,72 @@
+/* img{
+    position:absolute;
+    top:100px;
+    left:100px
+ 
+}
+
+div{
+    position:relative;
+    border:2px solid red ;
+    top:100px;
+    height: 50vh;
+    width:70vw;
+
+}
+span{
+  position: absolute;
+  left:5px;
+  top:-8px;
+  color:rgb(34, 255, 0)
+
+} */
+/* #id1{
+    position: relative;
+    left:30px;
+   
+} */
+
+
+/* position sticky */
+
+/* img{
+    position: fixed;
+    top:30px;
+} */
+
+#id2{
+    position:relative;
+    border:2px solid red ;
+    top:100px;
+    height: 50vh;
+    width:70vw;
+
+}
+#id3{
+position: absolute;
+
+}
+#id4{
+    position: absolute;
+    top:30px;
+    left:50px;
+}
+#id5{
+    position: absolute;
+    top:50px;
+    left:80px;
+    z-index:100;
+}
+#id6{
+    position: absolute;
+    top:100px;
+    left:100px;
+    z-index:1 ;
+}
+#id7{
+    position: absolute;
+    top:120px;
+    left:120px;
+  
+    
+}

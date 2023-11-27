@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* to caliculte the total width:
+ width+marginleft+marginright +borderright+borderleft+paddingright+paddingleft */
+/* h1{
+    border: 2px solid red;
+    padding: 5px;
+    width:100px;
+    height:100px;
+    box-sizing: content-box;
+
+} */
+
+input{
+    border: 2px solid red;
+    /* outline: 2px solid red; */
+    outline-style: solid ;
+    outline-color: aqua;
+    outline-width: 3px;
+    outline-offset: 10px;/* provides the gap between outline and border */
+    outline: 2px dotted green ;
+    
+}

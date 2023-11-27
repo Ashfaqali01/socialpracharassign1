@@ -1,0 +1,41 @@
+/* img{
+    float:left;
+   margin-right: 10px;
+} */
+
+.parent{
+    border: 2px solid red;
+    width: 80vw;
+    height: 300px;
+    /* overflow:auto; */
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+    /* overflow: hidden; */
+
+}
+/* .child1{
+    width: 440px;
+    height: 410px;
+    border: 2px solid green;
+} */
+img{
+    height: 400px;
+    width: 400px;
+}
+img{
+    float: left;
+}
+/* #id1{
+    clear: both;
+}
+#id2{
+    clear: left;
+} */
+.clear::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* p::after{
+    content: '';
+} */

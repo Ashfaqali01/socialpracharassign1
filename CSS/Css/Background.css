@@ -1,0 +1,71 @@
+body{
+    /* five types of colors:default rgb&rgba hsl&hsla hexa and gradients */
+    /* background-color:red ;
+    background-color:rgb(198,198,198) ;
+    background-color: #000; */
+    /* background image */
+    /* background-image: url('./images/img-2.jpg'); */
+
+    /* background-repeat properties:repeat no-repeat repeat-x repeat-y */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x repeat-y; */
+
+    /* background-size:cover contain and different sizes */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: 100px; */
+    /* background-size: 100px 50px; ( 1horizontal dir and 2.vertical dir )*/
+ 
+
+  /* background-image: linear-gradient(direction-right top bottom left degrees,different colors); */
+  /* background-image: linear-gradient(to left,red, green,blue); */
+  /* background-image: linear-gradient(to bottom,red, green,blue); */
+  /* background-image: linear-gradient(to top,red, green,blue); */
+  /* background-image: linear-gradient(45deg,red, green,blue); */
+  /* background-image: linear-gradient(45deg,red 50%, green 10%,blue 40%); */
+  /* background: linear-gradient(to right, #24c6dc, #514a9d); */
+  /* background-color: #85FFBD; */
+/* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+/* background-image: repeating-linear-gradient(red ,green,orange); */
+/* -------------------------Radial gradients------------------ */
+/* background-image: radial-gradient(type/position,colors); */
+/* background-image: radial-gradient(red, green);
+background-image: radial-gradient(circle,red 50%, green);
+background-image: radial-gradient(closest-side,red , green);
+background-image: radial-gradient(yellow 20deg,red 30deg , green); */
+/* background-image: radial-gradient(closest-corner,red , green); */
+/* background-image: radial-gradient(farthest-side,red , green); */
+/* background-image: radial-gradient(farthest-corner,red , green); */
+/* background-image:conical-gradient(red,green ); */
+  /* background-position: center; */
+  background-image: url('./images/img-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+ 
+
+
+    
+}
+div{
+    border:2px dotted red;
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url('./images/img--1.gif');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    /* background-origin: content-box; */
+    background-clip: text;
+     /* background-clip: text; :borderbox content-box paddingbox */
+    -webkit-background-clip: text;
+    /* color: transparent; */
+    /* background-position:center center; */
+    /* background-color: aqua; */
+    /* border-radius: 50%; */
+/* background: conical-gradient(red green); */
+/* background-image: conic-gradient(rgb(0, 255, 251) 30deg,rgb(128, 0, 79)); */
+/* background-image: conic-gradient(rgb(0, 255, 251) 50 deg,rgb(128, 0, 79)); */
+    
+}

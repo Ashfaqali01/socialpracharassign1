@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, sans-serif;
+    
+}
+
+.container{
+    background-color: #320344;
+    color: white;
+    padding: 1rem;
+}
+.h1{
+    margin: 0;
+}
+
+.img{
+    position: absolute;
+   
+    padding: 1%;
+    text-align: right;
+    top: 0rem;
+    width: 97%;
+    height: 120%;
+    bottom: 10%;
+    
+}
+.p{
+    width: 5%;
+    padding: 0.5rem;
+    height: 100%;
+    
+}
+

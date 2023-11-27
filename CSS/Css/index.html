@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+    <!-- {}-block:it excutes group statements -->
+<!--     
+    <style>
+        /* single line comments */
+       /* div{
+        color:blue;
+        background-color: chartreuse;
+       } */
+       /*idselector--#idvalue*/
+       /* IDSELECTOR:is used to style unique elements */
+       #id1{
+        color:orange;
+        background: #000;
+       }
+       /* classselector====>(dotnotation) .Classvalue */
+       /* CLASSSELECTOR:is used to style group of elements */
+       .c1{
+        color:rgb(255, 0, 230);
+        background:yellow;
+       }
+       .id2{
+        background-color: darkorange;
+       }
+
+    </style> -->
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- inline css -->
+    <p style="background-color: red;">inline css</p>
+
+    <!-- selector:which helps in selecting particular elemnt or tag   attribute-->
+    <!--1. simpleselector:id ,class ,tag/element ,groupselector ,universal_selector -->
+    <!--2.combinators selectors:childselector,gernalsibiling,adjacentsibiling etc -->
+    <!--3.pseudoclass & pseudoelement selector  -->
+    <!--4. attribute selectors -->
+
+    <div>
+        <p>internal css style rules</p>
+
+    </div>
+    <div id="id1">
+        <p>internal css style rules id attribute</p>
+
+    </div>
+    <div>
+        <p>internal css style rules</p>
+
+    </div>
+    <div class="c1 id2">
+        <p>internal css style rules</p>
+
+    </div>
+    <div class="c1">
+        <p>internal css style rules</p>
+
+    </div>
+    <div class="c1">
+        <p>internal css style rules</p>
+
+    </div>
+</body>
+</html>
