@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 1500px;
+    margin-bottom: 50vh;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid rgb(238, 229, 234);
+    height: 100px;
+}
+.items{
+    flex-basis: 35%;
+    margin: 0px 0px;
+    background: rgb(52, 20, 145);
+    padding: 1px 0px;
+    text-align: center;
+}
+    

@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.container{
+    width: 100%;/* 1) px , 2) % 3)  em, 4) rem and 5) VH & VW */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 20px;
+    background-color: aliceblue;
+    
+}
+.container img {
+    /* align-items: center; */
+    padding: 10px 20px;
+    width: 100px;
+    height: 100px;
+}
+.container1 img{
+    padding: 10px 20px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+
+
